@@ -9,7 +9,7 @@ const pokemonSchema = new Schema({
         unique:true
     },
     view:{
-        tyoe:Boolean,
+        type:Boolean,
         default:true
     },
     catch:{
